@@ -1,0 +1,28 @@
+This package contains the model of a Campfire with realistic PBR materials. 
+Fireplace presented in two conditions: burning and not burning. You able to switch material when fire starts. 
+
+Package components: 
+
+Twelve meshes: 
+Ash - 40 tris,
+Firewood1 - 74 tris,
+Firewood2 - 56 tris,
+Firewood3 - 38 tris,
+Firewood4 - 84 tris,
+Firewood5 - 50 tris,
+Firewood6 - 146 tris, 
+Armature  - 172 tris,
+Fork1     - 118 tris,
+Fork2     - 126 tris,
+Pot       - 1716 tris,
+Water     - 100 tris.
+
+ 
+Nine textures 2048x2048 TGA:
+- 3 Albedo Maps
+- 3 Normal Maps
+- 2 Metallic-Smoothness Maps
+- 1 Emission Map
+
+For presentation was used 'Fire' from Standard Assets. The particle system is not included.
+No installation is required. Just import the package, grab a necessary prefabs, and use it in your game.

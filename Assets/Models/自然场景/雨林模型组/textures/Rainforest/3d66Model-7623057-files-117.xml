@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Autodesk_Cache_File>
+  <cacheType Type="OneFilePerFrame" Format="mcc"/>
+  <time Range="250-14750"/>
+  <cacheTimePerFrame TimePerFrame="250"/>
+  <cacheVersion Version="2.0"/>
+  <extra>F:/work/CLSG_Project/scenes/Animation/sc007.mb</extra>
+  <extra>maya 2012</extra>
+  <extra>jj</extra>
+  <Channels>
+    <channel0 ChannelName="yjsShape1" ChannelType="FloatVectorArray" ChannelInterpretation="positions" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="14750"/>
+  </Channels>
+</Autodesk_Cache_File>

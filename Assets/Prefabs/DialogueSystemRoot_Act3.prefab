@@ -1,0 +1,2811 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &103516179851708059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2086449744050489534}
+  - component: {fileID: 2656688639366077411}
+  - component: {fileID: 6629556994508786096}
+  m_Layer: 0
+  m_Name: SpeakerAvatar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2086449744050489534
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103516179851708059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1502970570358980569}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -277, y: 47}
+  m_SizeDelta: {x: 120, y: 120}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2656688639366077411
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103516179851708059}
+  m_CullTransparentMesh: 1
+--- !u!114 &6629556994508786096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103516179851708059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0c831b5ba889a9041bd110b40deb89fe, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &227087531930747493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1502970570358980569}
+  - component: {fileID: 9203213543393845324}
+  - component: {fileID: 3954281417427369677}
+  m_Layer: 0
+  m_Name: DialoguePanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1502970570358980569
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227087531930747493}
+  m_LocalRotation: {x: 0.000000014901161, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 216274044117308259}
+  - {fileID: 4647071443385793743}
+  - {fileID: 6651013640997669205}
+  - {fileID: 2086449744050489534}
+  - {fileID: 1953157861427258080}
+  m_Father: {fileID: 4411537938415690051}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -240}
+  m_SizeDelta: {x: 712, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &9203213543393845324
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227087531930747493}
+  m_CullTransparentMesh: 1
+--- !u!114 &3954281417427369677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227087531930747493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.7058824}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &335064809279889111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4411537938415690051}
+  - component: {fileID: 279706267605969875}
+  - component: {fileID: 2930449277422487416}
+  - component: {fileID: 8918347460188257627}
+  m_Layer: 0
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4411537938415690051
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335064809279889111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1502970570358980569}
+  - {fileID: 985789931851753138}
+  - {fileID: 6889433595847504707}
+  - {fileID: 2223553631342524841}
+  - {fileID: 369576318538976615}
+  m_Father: {fileID: 2350116973278200650}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &279706267605969875
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335064809279889111}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 0.5
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &2930449277422487416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335064809279889111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!114 &8918347460188257627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335064809279889111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!1 &798562234052811215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3463087652505635356}
+  - component: {fileID: 762721142031926954}
+  - component: {fileID: 2874767129270412467}
+  m_Layer: 0
+  m_Name: MayaNum-Initial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &3463087652505635356
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798562234052811215}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1953157861427258080}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -71, y: -67}
+  m_SizeDelta: {x: 250, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &762721142031926954
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798562234052811215}
+  m_CullTransparentMesh: 1
+--- !u!114 &2874767129270412467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798562234052811215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a3d1e3aa0ae3b384c979aaf2663a1569, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1666257313824835994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7066303321374785901}
+  - component: {fileID: 8872585244288919138}
+  - component: {fileID: 3110625421581679414}
+  m_Layer: 0
+  m_Name: MayaNum-Twen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &7066303321374785901
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666257313824835994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1953157861427258080}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -81, y: -61}
+  m_SizeDelta: {x: 250, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8872585244288919138
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666257313824835994}
+  m_CullTransparentMesh: 1
+--- !u!114 &3110625421581679414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666257313824835994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7e298adca0a15094f83982ed204df107, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2820620666195820709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 216274044117308259}
+  - component: {fileID: 7261637591896514495}
+  - component: {fileID: 107016740629892271}
+  m_Layer: 0
+  m_Name: DialogueText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &216274044117308259
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2820620666195820709}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1502970570358980569}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 12, y: 58}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7261637591896514495
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2820620666195820709}
+  m_CullTransparentMesh: 1
+--- !u!114 &107016740629892271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2820620666195820709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u63A2\u9669\u5BB6\uFF0C\u6211\u6765\u5E2E\u4F60\u5199\u3002\u8BF7\u8BB0\u4F4F\uFF0C\u739B\u96C5\u6570\u5B57
+    9 \u662F\u8FD9\u6837\u5199\u7684\u3002"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 77e89557a60a30e48bd8396dcd7dec11, type: 2}
+  m_sharedMaterial: {fileID: -8184796530098042635, guid: 77e89557a60a30e48bd8396dcd7dec11, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 26
+  m_fontSizeBase: 26
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -108.632935, y: -6.467663, z: -216.88525, w: -182.22432}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &3076561643847855503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2350116973278200650}
+  m_Layer: 0
+  m_Name: DialogueSystemRoot_Act3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2350116973278200650
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3076561643847855503}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2295359977515730526}
+  - {fileID: 4411537938415690051}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 356.24997, y: 233.75}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &3982782322403570751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2788078525824520892}
+  - component: {fileID: 2562139262067254359}
+  - component: {fileID: 3166846887846641159}
+  m_Layer: 0
+  m_Name: MayaNum-Nine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2788078525824520892
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3982782322403570751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1953157861427258080}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -81, y: -61}
+  m_SizeDelta: {x: 250, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2562139262067254359
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3982782322403570751}
+  m_CullTransparentMesh: 1
+--- !u!114 &3166846887846641159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3982782322403570751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 460d582cbddd47b42b6d53900befc7f8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3994895653503906778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2295359977515730526}
+  - component: {fileID: 3575526809389628558}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2295359977515730526
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3994895653503906778}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2350116973278200650}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3575526809389628558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3994895653503906778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f487dedf0acdf9340ac5b201e109d9a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowSkipInteractionInEditor: 1
+  speakerText: {fileID: 6196261970794642522}
+  dialogueText: {fileID: 107016740629892271}
+  dialoguePanel: {fileID: 227087531930747493}
+  speakerAvatarImage: {fileID: 6629556994508786096}
+  speakerAvatars:
+  - speaker: "\u80D6\u80D6"
+    avatar: {fileID: 21300000, guid: 0c831b5ba889a9041bd110b40deb89fe, type: 3}
+  - speaker: "\u8BFA\u4E9A"
+    avatar: {fileID: 21300000, guid: eaaa5e81ba3ebf540a5b36b77102eb34, type: 3}
+  - speaker: "\u3010\u4EA4\u4E92\u63D0\u793A\u3011"
+    avatar: {fileID: 21300000, guid: eaaa5e81ba3ebf540a5b36b77102eb34, type: 3}
+  - speaker: "\u56FD\u738B"
+    avatar: {fileID: 21300000, guid: ca73c6194c1963f4089d210bde7dc479, type: 3}
+  - speaker: "\u3010\u8F6C\u76D8\u64CD\u4F5C\u6559\u5B66\u3011"
+    avatar: {fileID: 21300000, guid: 0c831b5ba889a9041bd110b40deb89fe, type: 3}
+  hideAvatarIfNotFound: 1
+  dialogueLines:
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u6211\u4EEC\u5DF2\u7ECF\u8FDB\u5165\u91D1\u5B57\u5854\u5185\u90E8\u3002\u8FD9\u91D1\u5B57\u5854\u7684\u4E3B\u4EBA\uFF0C\u662F\u5E15\u4F26\u514B\u7684\u56FD\u738B\u57FA\u5C3C\u5947\xB7\u574E\xB7\u5DF4\u8D6B\u62C9\u59C6\u4E8C\u4E16\u3002"
+    clip: {fileID: 8300000, guid: ace714b7a0c15e04a9cfa0c2d82a4007, type: 3}
+    lineId: "\u8BFA\u4E9A1"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u8FD9\u4E9B\u7ED5\u7740\u6211\u4EEC\u8F6C\u7684\u8868\u60C5\u5305\uFF0C\u4E00\u5B9A\u662F\u4ED6\u7559\u4E0B\u7684\u201C\u6587\u5B57\u673A\u5173\u201D\u5427\uFF01"
+    clip: {fileID: 8300000, guid: a10394ea60e2725459e05d9db7376226, type: 3}
+    lineId: "\u80D6\u80D61"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u6CA1\u9519\uFF0C\u8FD9\u6B63\u662F\u739B\u96C5\u6587\u5B57\u7279\u522B\u7684\u5730\u65B9\uFF1A\u5B83\u65E2\u50CF\u56FE\u753B\uFF0C\u4E5F\u80FD\u8BB0\u5F55\u58F0\u97F3\u548C\u610F\u4E49\u3002"
+    clip: {fileID: 8300000, guid: ca09d96d0422a2d4a86bd73d5ff17947, type: 3}
+    lineId: "\u8BFA\u4E9A2"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u90A3\u8BA9\u6211\u4EEC\u4E00\u8D77\u627E\u51FA\u90A3\u4E09\u679A\u80FD\u8BA9\u6211\u4EEC\u4E0E\u795E\u5E99\u4EA7\u751F\u5171\u9E23\u7684\u739B\u96C5\u6587\u5B57\u5427\uFF01"
+    clip: {fileID: 8300000, guid: 9daa02f00526faa4eaef5f10e68e4cef, type: 3}
+    lineId: "\u80D6\u80D62"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u7B2C\u4E00\u679A\u6587\u5B57\u662F B'e\uFF0C\u610F\u601D\u662F\u9053\u8DEF\u3002\u8FD9\u4E2A\u5B57\u5C31\u50CF\u4E00\u53EA\u811A\u5370\u843D\u5728\u8DEF\u4E0A\uFF0C\u4EE3\u8868\u6587\u660E\u7559\u4E0B\u7684\u8DB3\u8FF9\u3002"
+    clip: {fileID: 8300000, guid: 478f9ed9af05364478ea4c3ac9db391c, type: 3}
+    lineId: "\u8BFA\u4E9A3"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u3010\u4EA4\u4E92\u63D0\u793A\u3011"
+    content: "[\u6309\u4F4F] [\u5DE6\u624B\u4E2D\u6307\u6293\u63E1\u952E] \u6293\u53D6\u76EE\u6807\u77F3\u677F
+      [B'e\uFF1A\u6846\u4E2D\u7684\u811A\u5370]\n\u7528 [\u5DE6\u624B\u6447\u6746]
+      \u5411\u524D\u63A8\uFF0C\u5C06\u77F3\u677F\u9001\u5165 [\u5DE6\u4FA7\u53F0\u5EA7]"
+    clip: {fileID: 8300000, guid: 70a87a405b3ece041a5ddd988e0af2a9, type: 3}
+    lineId: "\u80D6\u80D63"
+    waitType: 1
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 1
+    timeLimit: 20
+    successTargetLineId: "\u80D6\u80D64"
+    timeoutTargetLineId: "\u80D6\u80D65"
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 163895314444353900}
+  - speaker: "\u80D6\u80D6"
+    content: "\u63A2\u9669\u5BB6\uFF0C\u4F60\u771F\u68D2\uFF01\u6211\u8BB0\u4F4F\u4E86\uFF0C\u811A\u5370\u5C31\u662F\u8DEF\u3002"
+    clip: {fileID: 8300000, guid: 0cdac95d98870144e9dc7260a25c2202, type: 3}
+    lineId: "\u80D6\u80D64"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: "\u8BFA\u4E9A4"
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u63A2\u9669\u5BB6\uFF0C\u627E\u627E\u90A3\u4E2A\u50CF\u811A\u5370\u7684\u6587\u5B57\u5728\u54EA\u91CC\u3002"
+    clip: {fileID: 8300000, guid: bc1e597e6fb21994d81908178eb14f19, type: 3}
+    lineId: "\u80D6\u80D65"
+    waitType: 1
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 1
+    timeLimit: 20
+    successTargetLineId: "\u80D6\u80D64"
+    timeoutTargetLineId: "\u80D6\u80D66"
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u63A2\u9669\u5BB6\uFF0C\u6211\u627E\u5230\u4E86\uFF0C\u4F60\u770B\uFF0C\u811A\u5370\u5C31\u662F\u8DEF\u3002"
+    clip: {fileID: 8300000, guid: b342e45b90e36a041986c9816b594319, type: 3}
+    lineId: "\u80D6\u80D66"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: "\u8BFA\u4E9A4"
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u63A5\u4E0B\u6765\uFF0C\u795E\u5E99\u60F3\u77E5\u9053\u6211\u4EEC\u7A76\u7ADF\u5728\u5BFB\u627E\u8C01\u3002"
+    clip: {fileID: 8300000, guid: cd8f2ee9156099a478b15169611452a6, type: 3}
+    lineId: "\u8BFA\u4E9A4"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u6211\u4EEC\u8981\u627E\u7684\uFF0C\u4E0D\u5C31\u662F\u739B\u96C5\u521B\u4E16\u795E\u201C\u7FBD\u86C7\u795E\u201D\u5417\uFF1F"
+    clip: {fileID: 8300000, guid: 56d1d3fa59767574282425494698a4bf, type: 3}
+    lineId: "\u80D6\u80D67"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u6CA1\u9519\u3002\u800C\u201C\u7FBD\u201D\u7684\u7EBF\u7D22\uFF0C\u5C31\u85CF\u5728\u683C\u67E5\u5C14\u9E1F
+      K'uk' \u91CC\u3002\u627E\u90A3\u4E2A\u6709\u5F2F\u5F2F\u5634\u5DF4\u548C\u5927\u773C\u775B\u7684\u9E1F\u5934\u5427\u3002"
+    clip: {fileID: 8300000, guid: a30af451a7b8ee5419eeb1ea55d2d9a0, type: 3}
+    lineId: "\u8BFA\u4E9A5"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u3010\u4EA4\u4E92\u63D0\u793A\u3011"
+    content: "[\u6309\u4F4F] [\u5DE6\u624B\u4E2D\u6307\u6293\u63E1\u952E] \u6293\u53D6\u76EE\u6807\u77F3\u677F
+      [K'uk'\uFF1A\u5F2F\u5599\u4E0E\u7FBD\u51A0\u7684\u683C\u67E5\u5C14\u9E1F\u5934]\n\u7528
+      [\u5DE6\u624B\u6447\u6746] \u5411\u524D\u63A8\uFF0C\u5C06\u77F3\u677F\u9001\u5165
+      [\u4E2D\u95F4\u53F0\u5EA7]"
+    clip: {fileID: 8300000, guid: 0e5c28953b7b2b245ba12fb41fbf767d, type: 3}
+    lineId: "\u8BFA\u4E9A6"
+    waitType: 2
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 1
+    timeLimit: 20
+    successTargetLineId: "\u80D6\u80D68"
+    timeoutTargetLineId: "\u8BFA\u4E9A7"
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 163895314444353900}
+  - speaker: "\u80D6\u80D6"
+    content: "\u63A2\u9669\u5BB6\uFF0C\u4F60\u771F\u5389\u5BB3\uFF01\u539F\u6765\u9E1F\u5934\u7B26\u53F7\u5728\u739B\u96C5\u6587\u5B57\u91CC\u5C31\u662F\u9E1F\u7684\u610F\u601D\u5440\uFF01"
+    clip: {fileID: 8300000, guid: ff3a7a03f6157184d9ba042a766c0139, type: 3}
+    lineId: "\u80D6\u80D68"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: "\u80D6\u80D69"
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u63A2\u9669\u5BB6\uFF0C\u627E\u627E\u957F\u5F97\u50CF\u9E1F\u5934\u7684\u7B26\u53F7\u5728\u54EA\u91CC\uFF1F"
+    clip: {fileID: 8300000, guid: 48770276aa12f5542aa2be85d9defaf8, type: 3}
+    lineId: "\u8BFA\u4E9A7"
+    waitType: 2
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 1
+    timeLimit: 20
+    successTargetLineId: "\u80D6\u80D68"
+    timeoutTargetLineId: "\u8BFA\u4E9A8"
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u63A2\u9669\u5BB6\uFF0C\u6211\u627E\u5230\u683C\u67E5\u5C14\u9E1F\u4E86\uFF0C\u4F60\u770B\uFF0C\u5B83\u5C31\u50CF\u4E00\u53EA\u9E1F\u7684\u5934\u90E8\u4E00\u6837\u3002"
+    clip: {fileID: 8300000, guid: c7f7337e6ef03234d8fc8fc30b924a34, type: 3}
+    lineId: "\u8BFA\u4E9A8"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: "\u80D6\u80D69"
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u7FBD\u6BDB\u4E5F\u5F52\u4F4D\u4E86\uFF01\u6211\u5F00\u59CB\u611F\u89C9\uFF0C\u6211\u4EEC\u79BB\u90A3\u4F4D\u7FBD\u86C7\u795E\u771F\u7684\u8D8A\u6765\u8D8A\u8FD1\u4E86\u3002"
+    clip: {fileID: 8300000, guid: 886818f5a4815a04dbe9608b8fb96a23, type: 3}
+    lineId: "\u80D6\u80D69"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u6211\u4EEC\u8981\u627E\u7684\u6700\u540E\u4E00\u679A\u6587\u5B57\u53EB
+      Ajaw\uFF0C\u610F\u601D\u662F\u9886\u4E3B\u3001\u592A\u9633\u795E\u3002"
+    clip: {fileID: 8300000, guid: fbbe21df7e8763e41b2afce5ed711644, type: 3}
+    lineId: "\u8BFA\u4E9A9"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u8FD9\u4E2A\u6211\u8BB0\u5F97\uFF0C\u521A\u521A\u6211\u4EEC\u89C1\u8FC7\u5B83\uFF01\u8FD9\u5C31\u662F\u56FD\u738B\u7684\u8EAB\u4EFD\u6807\u8BB0\u3002"
+    clip: {fileID: 8300000, guid: ef7706e1d6b2816429bd853608cb2d35, type: 3}
+    lineId: "\u80D6\u80D610"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u6CA1\u9519\uFF0C\u795E\u6BBF\u662F\u5728\u786E\u8BA4\u6211\u4EEC\u662F\u5426\u8BA4\u5F97\u8FD9\u5EA7\u795E\u5E99\u7684\u4E3B\u4EBA\u3002"
+    clip: {fileID: 8300000, guid: 914b46adf8af0454c955f8416f77aac8, type: 3}
+    lineId: "\u8BFA\u4E9A10"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u63A2\u9669\u5BB6\uFF0C\u627E\u5230\u90A3\u4E2A\u6709\u5706\u773C\u775B\u548C\u5706\u5634\u5DF4\u7684\u592A\u9633\u795E\u5934\u50CF\u3002\u7528\u540C\u6837\u7684\u65B9\u6CD5\uFF0C\u628A\u5B83\u9001\u8FDB\u53F3\u4FA7\u53F0\u5EA7\u5427\uFF01"
+    clip: {fileID: 8300000, guid: 2f25d52c963da9d4b93a4e6e15ff3a7a, type: 3}
+    lineId: "\u80D6\u80D611"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u3010\u4EA4\u4E92\u63D0\u793A\u3011"
+    content: "[\u6309\u4F4F] [\u5DE6\u624B\u4E2D\u6307\u6293\u63E1\u952E] \u6293\u53D6\u76EE\u6807\u77F3\u677F
+      [Ajaw\uFF1A\u5706\u773C\u5706\u5634\u7684\u592A\u9633\u9886\u4E3B\u8138]\n\u7528
+      [\u5DE6\u624B\u6447\u6746] \u5411\u524D\u63A8\uFF0C\u5C06\u77F3\u677F\u9001\u5165
+      [\u53F3\u4FA7\u53F0\u5EA7]"
+    clip: {fileID: 0}
+    lineId: 
+    waitType: 3
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 1
+    timeLimit: 20
+    successTargetLineId: "\u8BFA\u4E9A11"
+    timeoutTargetLineId: "\u8BFA\u4E9A12"
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 163895314444353900}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u63A2\u9669\u5BB6\uFF0C\u4F60\u771F\u4E86\u4E0D\u8D77\uFF01"
+    clip: {fileID: 8300000, guid: 27821507588c03d439bbaecddfc7c405, type: 3}
+    lineId: "\u8BFA\u4E9A11"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: "\u56FD\u738B1"
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u63A2\u9669\u5BB6\uFF0C\u627E\u627E\u957F\u5F97\u50CF\u4EBA\u8138\u7684\u7B26\u53F7\u5728\u54EA\u91CC\uFF1F"
+    clip: {fileID: 8300000, guid: 32a15f8390573844185d157b6ca43aa4, type: 3}
+    lineId: "\u8BFA\u4E9A12"
+    waitType: 3
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 1
+    timeLimit: 20
+    successTargetLineId: "\u8BFA\u4E9A11"
+    timeoutTargetLineId: "\u8BFA\u4E9A13"
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u63A2\u9669\u5BB6\uFF0C\u4F60\u770B\u8FD9\u4E2A\u50CF\u4EBA\u8138\u4E00\u6837\u7684\u7B26\u53F7\u5C31\u662F\u739B\u96C5\u5B57\u592A\u9633\u795E\u7684\u610F\u601D\u3002"
+    clip: {fileID: 8300000, guid: f8b4fcd683326654ca9df7d4550cc9b1, type: 3}
+    lineId: "\u8BFA\u4E9A13"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: "\u56FD\u738B1"
+    forceCompleteBallPuzzleAfterLine: 1
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u56FD\u738B"
+    content: "\u5BFB\u8DEF\u8005\uFF0C\u4F60\u4EEC\u8BFB\u51FA\u4E86\u56FE\u5F62\u80CC\u540E\u7684\u58F0\u97F3\u3002"
+    clip: {fileID: 8300000, guid: a751c431a44f2f64dbfc5fa2ab891013, type: 3}
+    lineId: "\u56FD\u738B1"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u56FD\u738B"
+    content: "\u770B\u770B\u4F60\u4EEC\u5DE6\u8FB9\u7684\u77F3\u5899\u5427\u3002\u6700\u540E\u7684\u7B54\u6848\uFF0C\u6211\u5DF2\u7ECF\u85CF\u5728\u65F6\u95F4\u7684\u9F7F\u8F6E\u4E2D\u3002"
+    clip: {fileID: 8300000, guid: bd7a6ac9bb2d0374f83b53290659d4a4, type: 3}
+    lineId: "\u56FD\u738B2"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u8BFA\u4E9A\uFF0C\u8FD9\u4E9B\u523B\u7740\u5947\u602A\u7B26\u53F7\u7684\u8F6E\u76D8\u662F\u5E72\u4EC0\u4E48\u7528\u7684\uFF1F"
+    clip: {fileID: 8300000, guid: 5d6c63bfdc605ac489de578dfa500aa5, type: 3}
+    lineId: "\u80D6\u80D612"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u8FD9\u662F\u739B\u96C5\u4EBA\u7528\u6765\u8BB0\u5F55\u2018\u5B87\u5B99\u547C\u5438\u2019\u7684\u5386\u6CD5\u76D8\uFF01\u63A2\u9669\u5BB6\uFF0C\u739B\u96C5\u4EBA\u4ECE\u672A\u628A\u65F6\u95F4\u770B\u6210\u4E00\u6761\u6709\u53BB\u65E0\u56DE\u7684\u76F4\u7EBF\uFF0C\u800C\u662F\u5468\u800C\u590D\u59CB\u7684\u9F7F\u8F6E\u3002"
+    clip: {fileID: 8300000, guid: db91638ce23f5e7428e113055c685a6d, type: 3}
+    lineId: "\u8BFA\u4E9A14"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u5DE6\u8FB9\u8FD9\u7EC4\u662F 260 \u5929\u7684\u3010\u795E\u5386\u3011\uFF0C\u53EA\u8D1F\u8D23\u796D\u7940\u548C\u9884\u8A00\u3002\u53F3\u8FB9\u662F365
+      \u5929\u7684\u3010\u592A\u9633\u5386\u3011\uFF0C\u6307\u5BFC\u4EBA\u4EEC\u64AD\u79CD\u548C\u519C\u4F5C\u3002"
+    clip: {fileID: 8300000, guid: 53304a1247276ed408f70204bc832a2a, type: 3}
+    lineId: "\u8BFA\u4E9A15"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u7B49\u7B49\uFF0C\u8BFA\u4E9A\uFF01\u5982\u679C\u65F6\u95F4\u662F\u4E2A\u5706\u5708\uFF0C\u90A3\u5927\u5BB6\u4F20\u5F97\u6CB8\u6CB8\u626C\u626C\u7684\u20182012\u4E16\u754C\u672B\u65E5\u2019\u662F\u600E\u4E48\u56DE\u4E8B\uFF1F"
+    clip: {fileID: 8300000, guid: a36ffd3cbe6f4c74ba8501e2b5be062a, type: 3}
+    lineId: "\u80D6\u80D613"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u90A3\u662F\u4EBA\u4EEC\u7684\u8BEF\u89E3\u3002\u795E\u5386\u548C\u592A\u9633\u5386\u6784\u6210\u4E86\u957F\u7EAA\u5386\uFF0C\u800C2012
+      \u5E74 12 \u6708 21 \u65E5\u662F\u957F\u7EAA\u5386\u4E2D\u4E00\u4E2A\u7EAA\u5143\u7684\u6700\u540E\u4E00\u5929\uFF0C\u5C31\u50CF\u91CC\u7A0B\u8868\u5F52\u96F6\uFF0C\u610F\u5473\u7740\u5D2D\u65B0\u7684\u7B2C\u4E94\u7EAA\u5143\u5F00\u59CB\u4E86\u3002"
+    clip: {fileID: 8300000, guid: 6cfd3a09fcba12d4892949d2bed764ce, type: 3}
+    lineId: "\u8BFA\u4E9A16"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u56FD\u738B"
+    content: "\u5BFB\u8DEF\u8005\uFF0C\u82E5\u60F3\u5524\u9192\u7FBD\u86C7\u795E\u5E93\u5E93\u5C14\u574E\u7684\u771F\u8EAB\uFF0C\u5C31\u628A\u5B87\u5B99\u62E8\u56DE\u90A3\u4E2A\u3010\u521B\u4E16\u4E4B\u65E5\u3011\u5427\uFF01"
+    clip: {fileID: 8300000, guid: 39783458eee3a8c44a408a2440e9be97, type: 3}
+    lineId: "\u56FD\u738B3"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u5DE6\u8FB9\u5185\u5708\u662F\u795E\u5386\u7684\u65E5\u6570\uFF0C\u6570\u5B57
+      4\uFF0C\u8FD9\u4E2A\u7B80\u5355\uFF01"
+    clip: {fileID: 8300000, guid: 004df55e6211bc94e933d6a436cfe1c2, type: 3}
+    lineId: "\u80D6\u80D614"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u627E\u56DB\u4E2A\u70B9\u5BF9\u5427\uFF1F\u63A2\u9669\u5BB6\uFF0C\u4EA4\u7ED9\u4F60\u4E86\uFF01"
+    clip: {fileID: 8300000, guid: 5dc63bbdf5f8a3041b113cf57ab9a6e4, type: 3}
+    lineId: "\u80D6\u80D615"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u770B\u5230\u5899\u4E0A\u90A3\u4E2A\u767D\u8272\u7684\u65B9\u6846\u4E86\u5417\uFF1F\u6211\u4EEC\u9700\u8981\u628A\u6B63\u786E\u7684\u7B26\u53F7\u51C6\u786E\u5730\u8F6C\u8FDB\u6846\u91CC\u3002 "
+    clip: {fileID: 8300000, guid: a59ce7daf952b8b469c3860de0cb1c6f, type: 3}
+    lineId: "\u8BFA\u4E9A17"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u3010\u4EA4\u4E92\u63D0\u793A\u3011"
+    content: "[\u6309\u4F4F] [\u53F3\u624B\u4E2D\u6307\u6273\u673A\u952E] \u8F6C\u52A8
+      [\u5DE6\u4FA7\u5185\u76D8]\uFF0C\u5C06 [\u6570\u5B57 4\uFF08\u56DB\u4E2A\u70B9\uFF09]
+      \u8F6C\u81F3 [\u767D\u8272\u65B9\u6846] \u4E2D\u3002"
+    clip: {fileID: 8300000, guid: f2d68e22cfa419b438515f089156178f, type: 3}
+    lineId: "\u8BFA\u4E9A18"
+    waitType: 4
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 1
+    timeLimit: 20
+    successTargetLineId: "\u80D6\u80D616"
+    timeoutTargetLineId: "\u8F6C\u76D8\u64CD\u4F5C\u6559\u5B661"
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 1854669823361185186}
+  - speaker: "\u80D6\u80D6"
+    content: "\u5494\u54D2\u4E00\u58F0\uFF01\u5DE6\u8FB9\u5185\u5708\u641E\u5B9A\uFF01"
+    clip: {fileID: 8300000, guid: 23bf1dad8a962b042905d99d6331463e, type: 3}
+    lineId: "\u80D6\u80D616"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: "\u80D6\u80D618"
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u3010\u8F6C\u76D8\u64CD\u4F5C\u6559\u5B66\u3011"
+    content: "[\u6309\u4F4F] [\u53F3\u624B\u4E2D\u6307\u6273\u673A\u952E] \u8F6C\u52A8
+      [\u5DE6\u4FA7\u5185\u76D8]\uFF0C\u5C06 [\u6570\u5B57 4\uFF08\u56DB\u4E2A\u70B9\uFF09]
+      \u8F6C\u81F3 [\u767D\u8272\u65B9\u6846] \u4E2D\u3002"
+    clip: {fileID: 0}
+    lineId: "\u8F6C\u76D8\u64CD\u4F5C\u6559\u5B661"
+    waitType: 4
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 1
+    timeLimit: 20
+    successTargetLineId: "\u80D6\u80D616"
+    timeoutTargetLineId: "\u80D6\u80D617"
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 1854669823361185186}
+  - speaker: "\u80D6\u80D6"
+    content: "\u63A2\u9669\u5BB6\uFF0C\u6211\u6765\u5E2E\u4F60\u8F6C\u8F6E\u76D8\u3002"
+    clip: {fileID: 8300000, guid: f22fb3a804fce0e44a9dbeaad5aa9392, type: 3}
+    lineId: "\u80D6\u80D617"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: "\u80D6\u80D618"
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u5DE6\u8FB9\u5916\u5708\u8981\u627E\u7684\u662F\u4EC0\u4E48\uFF1F"
+    clip: {fileID: 8300000, guid: 7dba6c1902a5f374780fff57c08c4b6f, type: 3}
+    lineId: "\u80D6\u80D618"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u662F\u795E\u5386\u7684\u65E5\u540D\u9886\u4E3B Ajaw\u3002\u5C31\u662F\u6211\u4EEC\u521A\u521A\u627E\u8FC7\u7684\u5706\u773C\u5706\u5634\u592A\u9633\u795E\u5934\u50CF\u3002"
+    clip: {fileID: 8300000, guid: fbcae947efacc004b87864593b0d24aa, type: 3}
+    lineId: "\u8BFA\u4E9A19"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u63A2\u9669\u5BB6\uFF0C\u5FEB\u8F6C\u52A8\u5DE6\u4FA7\u5927\u76D8\uFF0C\u628A\u90A3\u4E2A\u2018\u5706\u773C\u955C\u5706\u5634\u5DF4\u2019\u7684\u9886\u4E3B\u5934\u50CF\u8F6C\u8FDB\u767D\u8272\u65B9\u6846\u91CC\uFF01"
+    clip: {fileID: 8300000, guid: 4ef68094144a3094ba093518a1eedc8a, type: 3}
+    lineId: "\u80D6\u80D619"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u3010\u4EA4\u4E92\u63D0\u793A\u3011"
+    content: "[\u6309\u4F4F] [\u53F3\u624B\u4E2D\u6307\u6273\u673A\u952E] \u8F6C\u52A8
+      [\u5DE6\u4FA7\u5916\u76D8]\uFF0C\u5C06 [Ajaw\uFF1A\u5706\u773C\u5706\u5634\u7684\u592A\u9633\u9886\u4E3B\u5934\u50CF]
+      \u8F6C\u81F3 [\u767D\u8272\u65B9\u6846] \u4E2D\u3002"
+    clip: {fileID: 0}
+    lineId: 
+    waitType: 5
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 1
+    timeLimit: 20
+    successTargetLineId: "\u80D6\u80D620"
+    timeoutTargetLineId: "\u8F6C\u76D8\u64CD\u4F5C\u6559\u5B662"
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 1854669823361185186}
+  - speaker: "\u80D6\u80D6"
+    content: "\u5DE6\u8FB9\u5F7B\u5E95\u641E\u5B9A\u4E86\uFF01"
+    clip: {fileID: 8300000, guid: 3e3cb8b81f0355d4daed31d98347ff84, type: 3}
+    lineId: "\u80D6\u80D620"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: "\u8BFA\u4E9A21"
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u3010\u8F6C\u76D8\u64CD\u4F5C\u6559\u5B66\u3011"
+    content: "[\u6309\u4F4F] [\u53F3\u624B\u4E2D\u6307\u6273\u673A\u952E] \u8F6C\u52A8
+      [\u5DE6\u4FA7\u5916\u76D8]\uFF0C\u5C06 [Ajaw\uFF1A\u5706\u773C\u5706\u5634\u7684\u592A\u9633\u9886\u4E3B\u5934\u50CF]
+      \u8F6C\u81F3 [\u767D\u8272\u65B9\u6846] \u4E2D\u3002"
+    clip: {fileID: 0}
+    lineId: "\u8F6C\u76D8\u64CD\u4F5C\u6559\u5B662"
+    waitType: 5
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 1
+    timeLimit: 20
+    successTargetLineId: "\u80D6\u80D620"
+    timeoutTargetLineId: "\u8BFA\u4E9A20"
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 1854669823361185186}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u63A2\u9669\u5BB6\uFF0C\u8BA9\u6211\u6765\u5E2E\u4F60\u8F6C\u8F6E\u76D8\u5427\uFF01"
+    clip: {fileID: 8300000, guid: 1fc722c5f6b51ce4692af7913c10f63a, type: 3}
+    lineId: "\u8BFA\u4E9A20"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: "\u8BFA\u4E9A21"
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u5E72\u5F97\u597D\u3002\u73B0\u5728\u53BB\u53F3\u8FB9\uFF0C\u5728\u77F3\u76D8\u8F93\u5165\u592A\u9633\u5386\u7684\u6570\u5B57
+      8\u3002"
+    clip: {fileID: 8300000, guid: a29dc723d0091b849bbc75814ca68db4, type: 3}
+    lineId: "\u8BFA\u4E9A21"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u6570\u5B57 8 \u5C31\u662F\u4E00\u6761\u6A2A\u7EBF\u548C\u4E09\u4E2A\u70B9\uFF0C\u5BF9\u5427\uFF1F
+      \u63A2\u9669\u5BB6\uFF0C\u8F6C\u52A8\u53F3\u8FB9\u7684\u5C0F\u76D8\u5B50\uFF0C\u628A\u5B83\u4E5F\u5BF9\u51C6\u767D\u8272\u65B9\u6846\uFF01"
+    clip: {fileID: 8300000, guid: be095d1e3e1c5fb44aa3c390512feae6, type: 3}
+    lineId: "\u80D6\u80D621"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u3010\u4EA4\u4E92\u63D0\u793A\u3011"
+    content: "[\u6309\u4F4F] [\u53F3\u624B\u4E2D\u6307\u6273\u673A\u952E] \u8F6C\u52A8
+      [\u53F3\u4FA7\u5185\u76D8]\uFF0C\u5C06 [\u6570\u5B57 8\uFF08\u4E00\u6A2A\u4E09\u70B9\uFF09]
+      \u8F6C\u81F3 [\u767D\u8272\u65B9\u6846] \u4E2D\u3002"
+    clip: {fileID: 0}
+    lineId: 
+    waitType: 6
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 1
+    timeLimit: 20
+    successTargetLineId: "\u80D6\u80D622"
+    timeoutTargetLineId: "\u8F6C\u76D8\u64CD\u4F5C\u6559\u5B663"
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 1
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 1854669823361185186}
+  - speaker: "\u80D6\u80D6"
+    content: "\u53F3\u8FB9\u6570\u5B57\u4E5F\u641E\u5B9A\u5566\uFF01"
+    clip: {fileID: 8300000, guid: bb36cedb12b1fd7418cd1a2872f44ec0, type: 3}
+    lineId: "\u80D6\u80D622"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: "\u80D6\u80D623"
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u3010\u8F6C\u76D8\u64CD\u4F5C\u6559\u5B66\u3011"
+    content: "[\u6309\u4F4F] [\u53F3\u624B\u4E2D\u6307\u6273\u673A\u952E] \u8F6C\u52A8
+      [\u53F3\u4FA7\u5185\u76D8]\uFF0C\u5C06 [\u6570\u5B57 8\uFF08\u4E00\u6A2A\u4E09\u70B9\uFF09]
+      \u8F6C\u81F3 [\u767D\u8272\u65B9\u6846] \u4E2D\u3002"
+    clip: {fileID: 0}
+    lineId: "\u8F6C\u76D8\u64CD\u4F5C\u6559\u5B663"
+    waitType: 6
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 1
+    timeLimit: 20
+    successTargetLineId: "\u80D6\u80D622"
+    timeoutTargetLineId: "\u8BFA\u4E9A22"
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 1854669823361185186}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u63A2\u9669\u5BB6\uFF0C\u6211\u6765\u5E2E\u4F60\u8F6C\u8F6E\u76D8\u3002"
+    clip: {fileID: 8300000, guid: c33ee09ee46a6864391cebf7093d7015, type: 3}
+    lineId: "\u8BFA\u4E9A22"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: "\u80D6\u80D623"
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 1
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u770B\u54EA\uFF0C\u6211\u4EEC\u7684\u6587\u5316\u5171\u9E23\u4EEA\u6EE1\u683C\u4E86\uFF01"
+    clip: {fileID: 8300000, guid: 46f20281ad11c0e48809e9bff5831cae, type: 3}
+    lineId: "\u80D6\u80D623"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: "\u7FBD\u86C7\u795E1"
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u7FBD\u86C7\u795E"
+    content: "\u5BFB\u5F97\u771F\u7406\u7684\u65C5\u4EBA\u2026\u2026\u4F60\u4EEC\u89E3\u5F00\u4E86\u65F6\u95F4\u7684\u67B7\u9501\u3002"
+    clip: {fileID: 0}
+    lineId: "\u7FBD\u86C7\u795E1"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u4F1F\u5927\u7684\u7FBD\u86C7\u795E\uFF0C\u8BF7\u544A\u8BC9\u6211\u4EEC\u771F\u76F8\u3002\u8FD9\u5982\u6B64\u8F89\u714C\u7684\u5386\u6CD5\u4E0E\u6587\u660E\uFF0C\u4E3A\u4F55\u6700\u7EC8\u53EA\u5269\u4E0B\u4E86\u8FD9\u7247\u5E9F\u589F\uFF1F"
+    clip: {fileID: 0}
+    lineId: "\u8BFA\u4E9A1"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u7FBD\u86C7\u795E"
+    content: "\u8FD9\u65E2\u662F\u6587\u660E\u7684\u52CB\u7AE0\uFF0C\u4E5F\u662F\u8D2A\u5A6A\u7684\u4EE3\u4EF7\u3002"
+    clip: {fileID: 0}
+    lineId: "\u7FBD\u86C7\u795E2"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u7FBD\u86C7\u795E"
+    content: "\u66FE\u7ECF\uFF0C\u6211\u7684\u5B50\u6C11\u56E0\u50B2\u6162\u800C\u65E0\u5EA6\u5730\u5411\u96E8\u6797\u7D22\u53D6\uFF0C\u4ED6\u4EEC\u780D\u4F10\u795E\u6728\uFF0C\u57CE\u90A6\u95F4\u4E3A\u4E86\u4E89\u593A\u6C34\u6E90\u71C3\u8D77\u767E\u5E74\u7684\u6218\u706B\u3002"
+    clip: {fileID: 0}
+    lineId: "\u7FBD\u86C7\u795E3"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u7FBD\u86C7\u795E"
+    content: "\u5F53\u5927\u5730\u7684\u751F\u673A\u88AB\u900F\u652F\uFF0C\u5916\u6765\u7684\u98CE\u5E06\u897F\u73ED\u7259\u8230\u961F\u5E26\u6765\u6BC1\u706D\u7684\u75BE\u75C5\u4E0E\u8086\u610F\u7684\u86EE\u884C\uFF0C\u9AD8\u5899\u7EC8\u7A76\u8F70\u7136\u5012\u584C\u3002"
+    clip: {fileID: 0}
+    lineId: "\u7FBD\u86C7\u795E4"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u80D6\u80D6"
+    content: "\u6240\u4EE5\uFF0C\u8FD9\u4E48\u4F1F\u5927\u7684\u6587\u5316\uFF0C\u6700\u540E\u8FD8\u662F\u968F\u7740\u5E9F\u589F\u4E00\u8D77\u6B7B\u53BB\u4E86\u5417\uFF1F"
+    clip: {fileID: 0}
+    lineId: "\u80D6\u80D61"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u7FBD\u86C7\u795E"
+    content: "\u4E0D\uFF0C\u5B69\u5B50\u3002\u6BC1\u706D\u7684\u53EA\u662F\u6C89\u91CD\u7684\u77F3\u5934\uFF0C\u6587\u660E\u7684\u8840\u8109\u65E9\u5DF2\u5316\u4F5C\u96E8\u6797\u7684\u547C\u5438\u3002"
+    clip: {fileID: 0}
+    lineId: "\u7FBD\u86C7\u795E5"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u7FBD\u86C7\u795E"
+    content: "\u76F4\u5230\u4ECA\u5929\uFF0C\u5728\u96E8\u6797\u7684\u89D2\u843D\uFF0C\u739B\u96C5\u7684\u540E\u88D4\u4F9D\u7136\u7528\u7956\u5148\u7684\u8BED\u8A00\u6B4C\u5531\u3002\u53EA\u8981\u68EE\u6797\u8FD8\u5728\u751F\u957F\uFF0C\u6587\u660E\u4FBF\u4ECE\u672A\u79BB\u6563\u3002"
+    clip: {fileID: 0}
+    lineId: "\u7FBD\u86C7\u795E6"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u7FBD\u86C7\u795E"
+    content: "\u8BB0\u4F4F\uFF1A\u81EA\u7136\u4E0D\u662F\u5F81\u670D\u7684\u5BF9\u8C61\uFF0C\u800C\u662F\u6587\u660E\u5F97\u4EE5\u5EF6\u7EED\u7684\u6C38\u6052\u5E87\u62A4\u3002"
+    clip: {fileID: 0}
+    lineId: "\u7FBD\u86C7\u795E7"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u7FBD\u86C7\u795E"
+    content: "\u4F60\u4EEC\u8FD9\u7FA4\u7231\u597D\u548C\u5E73\u7684\u5BA2\u4EBA\uFF0C\u5FC3\u4E2D\u6709\u771F\u6B63\u7684\u5149\u3002"
+    clip: {fileID: 0}
+    lineId: "\u7FBD\u86C7\u795E8"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  - speaker: "\u8BFA\u4E9A"
+    content: "\u535A\u58EB\uFF0C\u6211\u4EEC\u7684\u4EFB\u52A1\u5706\u6EE1\u5B8C\u6210\u5566\u3002\u6211\u4EEC\u5E26\u56DE\u4E86\u4EBA\u7C7B\u4E0E\u81EA\u7136\u3001\u4E0E\u739B\u96C5\u6587\u660E\u7684\u76DF\u7EA6\u3002"
+    clip: {fileID: 0}
+    lineId: "\u8BFA\u4E9A2"
+    waitType: 0
+    showMayaImage: 0
+    mayaImageObject: {fileID: 0}
+    mayaImageFadeInDuration: 0.5
+    mayaImageStayDuration: 3
+    mayaImageFadeOutDuration: 0.5
+    useTimeoutBranch: 0
+    timeLimit: 8
+    successTargetLineId: 
+    timeoutTargetLineId: 
+    successNextLineIndex: -1
+    timeoutNextLineIndex: -1
+    afterLineTargetLineId: 
+    forceCompleteBallPuzzleAfterLine: 0
+    forceCompleteCalendarPuzzleOnInteractionSuccess: 0
+    forceCompleteCalendarPuzzleAfterLine: 0
+    visualHintObject: {fileID: 0}
+  autoPlayDelay: 0.5
+  textModeDelay: 2
+  useRightGrip: 0
+  puzzleSequenceManager: {fileID: 0}
+  useSocketsFromPuzzleSequenceManager: 1
+  cornSocket: {fileID: 0}
+  shieldSocket: {fileID: 0}
+  jaguarSocket: {fileID: 0}
+  cornSocketIndex: 1
+  shieldSocketIndex: 0
+  jaguarSocketIndex: 2
+  verifyColorID: 1
+  allowMissingColorIDAsCorrect: 0
+  showDebugLog: 1
+  showDialDebugOnPanel: 0
+  panelDebugRefreshInterval: 0.2
+--- !u!1 &4964822972848305301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6651013640997669205}
+  - component: {fileID: 803515418129367598}
+  - component: {fileID: 5256695089786198847}
+  m_Layer: 0
+  m_Name: DialogueBorder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6651013640997669205
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4964822972848305301}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1502970570358980569}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -5, y: 0}
+  m_SizeDelta: {x: 900, y: 400}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &803515418129367598
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4964822972848305301}
+  m_CullTransparentMesh: 1
+--- !u!114 &5256695089786198847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4964822972848305301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3009b20cf0c6916468677862d12833bd, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5400637123600069791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4647071443385793743}
+  - component: {fileID: 1812332366767268312}
+  - component: {fileID: 6196261970794642522}
+  m_Layer: 0
+  m_Name: SpeakerText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4647071443385793743
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400637123600069791}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1502970570358980569}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -275, y: -48}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1812332366767268312
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400637123600069791}
+  m_CullTransparentMesh: 1
+--- !u!114 &6196261970794642522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400637123600069791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u80D6\u8FBE"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 77e89557a60a30e48bd8396dcd7dec11, type: 2}
+  m_sharedMaterial: {fileID: -8184796530098042635, guid: 77e89557a60a30e48bd8396dcd7dec11, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4285309943
+  m_fontColor: {r: 0.96981126, g: 0.63966113, b: 0.4226913, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 28
+  m_fontSizeBase: 28
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 13.734116, y: 0, z: 9.397186, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &8993670233387894548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1953157861427258080}
+  m_Layer: 0
+  m_Name: MayaImageHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1953157861427258080
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8993670233387894548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3463087652505635356}
+  - {fileID: 2788078525824520892}
+  - {fileID: 7066303321374785901}
+  m_Father: {fileID: 1502970570358980569}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &3303088328773289866
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4411537938415690051}
+    m_Modifications:
+    - target: {fileID: 7986889690938166284, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_Name
+      value: ControllerHelpPanel_Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986889690938166284, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 181.88058
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 181.88063
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 181.88063
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -455
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -66
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.004952311
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.002030037
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9999854
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0008292048
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -22.337
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 133.652
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9094870272904866096, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+--- !u!4 &6889433595847504707 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+  m_PrefabInstance: {fileID: 3303088328773289866}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7823144185130110304
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4411537938415690051}
+    m_Modifications:
+    - target: {fileID: 2137317043720866161, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.348
+      objectReference: {fileID: 0}
+    - target: {fileID: 2137317043720866161, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.053
+      objectReference: {fileID: 0}
+    - target: {fileID: 2137317043720866161, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2137317043720866161, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8022095
+      objectReference: {fileID: 0}
+    - target: {fileID: 2137317043720866161, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5573327
+      objectReference: {fileID: 0}
+    - target: {fileID: 2137317043720866161, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.20237535
+      objectReference: {fileID: 0}
+    - target: {fileID: 2137317043720866161, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.06988898
+      objectReference: {fileID: 0}
+    - target: {fileID: 2137317043720866161, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 197.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670345587179875781, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.54661316
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670345587179875781, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.032
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670345587179875781, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.086
+      objectReference: {fileID: 0}
+    - target: {fileID: 3861252273444399703, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_text
+      value: "\u6447\u6746"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4488609682686884432, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: highlightedRenderers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4488609682686884432, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: highlightedRenderers.Array.data[1]
+      value: 
+      objectReference: {fileID: 636896381999767409}
+    - target: {fileID: 4488609682686884432, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: highlightedRenderers.Array.data[2]
+      value: 
+      objectReference: {fileID: 3099768266683391067}
+    - target: {fileID: 7986889690938166284, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_Name
+      value: "ControllerHelpPanel_Left\uFF08\u6447\u6746\uFF09"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986889690938166284, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 181.88062
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 181.88062
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 181.88062
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -455
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -66
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0049456554
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0028406638
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99998343
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00085183483
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.096
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 179.433
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.326
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9094870272904866096, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+--- !u!1 &163895314444353900 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7986889690938166284, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+  m_PrefabInstance: {fileID: 7823144185130110304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &636896381999767409 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7225974829336498705, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+  m_PrefabInstance: {fileID: 7823144185130110304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2223553631342524841 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+  m_PrefabInstance: {fileID: 7823144185130110304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3099768266683391067 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5158295995077284155, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+  m_PrefabInstance: {fileID: 7823144185130110304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7896532108794791816
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4411537938415690051}
+    m_Modifications:
+    - target: {fileID: 6933331920931529018, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 181.8806
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933331920931529018, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 181.8806
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933331920931529018, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 181.8806
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933331920931529018, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933331920931529018, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -455
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933331920931529018, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -66
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933331920931529018, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0049497443
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933331920931529018, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0020287032
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933331920931529018, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9999854
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933331920931529018, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0008277422
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933331920931529018, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.096
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933331920931529018, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 179.433
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933331920931529018, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.232
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933331920931529018, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981804321951570431, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_Name
+      value: ControllerHelpPanel_Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981804321951570431, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+--- !u!4 &985789931851753138 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6933331920931529018, guid: e3d8f8eaff41de84ba9f10c88f80640f, type: 3}
+  m_PrefabInstance: {fileID: 7896532108794791816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8604757912311380398
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4411537938415690051}
+    m_Modifications:
+    - target: {fileID: 1113035482171805524, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_text
+      value: "\u8F6C\u52A8"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3861252273444399703, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_text
+      value: "\u6447\u6746"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986889690938166284, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_Name
+      value: "ControllerHelpPanel_Left\uFF08\u8F6C\u52A8"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986889690938166284, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 181.88062
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 181.88062
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 181.88062
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -455
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -66
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0049456554
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0028406638
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99998343
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00085183483
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.096
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 179.433
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.326
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9094870272904866096, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 5117113957364372464, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+    - {fileID: 6603911567604148183, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+--- !u!4 &369576318538976615 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8235608238991914185, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+  m_PrefabInstance: {fileID: 8604757912311380398}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1854669823361185186 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7986889690938166284, guid: 625ab713b0755a14c8fc075b1641346e, type: 3}
+  m_PrefabInstance: {fileID: 8604757912311380398}
+  m_PrefabAsset: {fileID: 0}
